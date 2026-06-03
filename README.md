@@ -26,4 +26,4 @@ TypeScript · Node.js · Next.js · Python · AWS (Lambda, DynamoDB, CloudFront,
 
 ---
 
-[underthejacket@gmail.com](mailto:underthejacket@gmail.com)
+[mosefbel@gmail.com](mailto:mosefbel@gmail.com)
