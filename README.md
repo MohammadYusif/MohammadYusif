@@ -2,13 +2,25 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=58A6FF&center=true&width=500&lines=Mohammad+Yusif+Albeladi;Software+Engineer+%E2%80%94+Saudi+Arabia;Full-stack+%7C+AI+%7C+Cloud" alt="Typing SVG" />
 </div>
 
+<p align="center">
+  <a href="https://github.com/MohammadYusif?tab=followers">
+    <img src="https://custom-icon-badges.demolab.com/github/followers/MohammadYusif?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white" alt="Follow on GitHub" />
+  </a>
+  <a href="https://github.com/MohammadYusif?tab=repositories&sort=stargazers">
+    <img src="https://custom-icon-badges.demolab.com/github/stars/MohammadYusif?color=55960c&style=for-the-badge&labelColor=488207&logo=star" alt="Total stars" />
+  </a>
+  <a href="mailto:mosefbel@gmail.com">
+    <img src="https://img.shields.io/badge/mosefbel@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
+
 <br/>
 
 I'm a software engineer based in Saudi Arabia. I build things end-to-end — from the database schema and the API to the UI and the infrastructure that runs it all. Most of what I make is either a production SaaS product or an AI tool that solves a specific, real problem.
 
 ---
 
-## Projects
+## 📦 Projects
 
 ### [Pointly](https://github.com/MohammadYusif/pointly)
 ![Next.js](https://img.shields.io/badge/Next.js-black?style=flat-square&logo=next.js&logoColor=white) ![AWS Lambda](https://img.shields.io/badge/Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white) ![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
@@ -37,29 +49,35 @@ A RAG-powered support companion for drug awareness, using Llama 3.1. Built to fe
 
 ---
 
-## Open Source Contributions
+<details>
+  <summary><h2>🤝 Open Source Contributions</h2></summary>
+  <br/>
 
-Projects I've contributed to — bug fixes, features, or tooling work:
+  Projects I've contributed to — bug fixes, features, or tooling work:
 
-| Project | Description |
-|---|---|
-| [OWASP/cve-lite-cli](https://github.com/OWASP/cve-lite-cli) | JS/TS dependency vulnerability scanner with OSV matching and CI-friendly output |
-| [repowise-dev/repowise](https://github.com/repowise-dev/repowise) | Codebase intelligence and auto-documentation for AI-assisted engineering teams |
-| [404-PF/commit-echo](https://github.com/404-PF/commit-echo) | LLM-powered CLI that learns your commit style and suggests personalized messages |
+  | Project | Description |
+  |---|---|
+  | [OWASP/cve-lite-cli](https://github.com/OWASP/cve-lite-cli) | JS/TS dependency vulnerability scanner with OSV matching and CI-friendly output |
+  | [repowise-dev/repowise](https://github.com/repowise-dev/repowise) | Codebase intelligence and auto-documentation for AI-assisted engineering teams |
+  | [404-PF/commit-echo](https://github.com/404-PF/commit-echo) | LLM-powered CLI that learns your commit style and suggests personalized messages |
 
----
+</details>
 
-## Stack
+<details>
+  <summary><h2>🛠️ Stack</h2></summary>
+  <br/>
 
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Next.js-black?style=flat&logo=next.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-web-services&logoColor=white" />
-  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white" />
-  <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white" />
-</p>
+  <p>
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
+    <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" />
+    <img src="https://img.shields.io/badge/Next.js-black?style=flat&logo=next.js&logoColor=white" />
+    <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
+    <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-web-services&logoColor=white" />
+    <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white" />
+    <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white" />
+  </p>
+
+</details>
 
 ---
 
@@ -71,14 +89,8 @@ Projects I've contributed to — bug fixes, features, or tooling work:
   </picture>
 </div>
 
----
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=MohammadYusif&style=flat-square&color=58A6FF&label=profile+views" />
-</div>
-
 <br/>
 
 <div align="center">
-  <a href="mailto:mosefbel@gmail.com">mosefbel@gmail.com</a>
+  <img src="https://komarev.com/ghpvc/?username=MohammadYusif&style=flat-square&color=58A6FF&label=profile+views" />
 </div>
