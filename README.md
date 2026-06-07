@@ -31,7 +31,7 @@ A developer tool for anyone using AI coding agents. It indexes every Claude Code
 An Arabic-speaking navigation assistant for visually impaired users, built with zero-shot vision-language models. The Arabic-first design was intentional — most accessibility tools in this space assume English. This started as a university project and ended up being something I was genuinely proud of shipping.
 
 ### [baseera-ai](https://github.com/MohammadYusif/baseera-ai)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![LlamaIndex](https://img.shields.io/badge/Llama_3.1-7C3AED?style=flat-square&logo=meta&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Meta Llama](https://img.shields.io/badge/Llama_3.1-7C3AED?style=flat-square&logo=meta&logoColor=white)
 
 A RAG-powered support companion for drug awareness, using Llama 3.1. Built to feel like a conversation rather than a lookup table — the goal was approachability for people who wouldn't otherwise seek out information on their own.
 
@@ -64,8 +64,7 @@ Projects I've contributed to — bug fixes, features, or tooling work:
 ---
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MohammadYusif&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammadYusif&layout=compact&theme=github_dark&hide_border=true&langs_count=6" height="150" />
+  <img src="https://komarev.com/ghpvc/?username=MohammadYusif&style=flat-square&color=58A6FF&label=profile+views" />
 </div>
 
 <br/>
