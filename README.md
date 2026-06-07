@@ -63,6 +63,25 @@ Projects I've contributed to — bug fixes, features, or tooling work:
 
 ---
 
+## GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.demolab.com?user=MohammadYusif&theme=github-dark-blue&hide_border=true&date_format=j%20M%5B%20Y%5D" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammadYusif&layout=compact&theme=github_dark&hide_border=true&langs_count=6" height="150" />
+</div>
+
+---
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/MohammadYusif/MohammadYusif/blob/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/MohammadYusif/MohammadYusif/blob/output/github-contribution-grid-snake.svg" />
+    <img alt="github contribution grid snake animation" src="https://github.com/MohammadYusif/MohammadYusif/blob/output/github-contribution-grid-snake.svg" />
+  </picture>
+</div>
+
+---
+
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=MohammadYusif&style=flat-square&color=58A6FF&label=profile+views" />
 </div>
