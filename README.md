@@ -53,13 +53,34 @@ A RAG-powered support companion for drug awareness, using Llama 3.1. Built to fe
   <summary><h2>🤝 Open Source Contributions</h2></summary>
   <br/>
 
-  Projects I've contributed to — bug fixes, features, or tooling work:
+  Bug fixes and features shipped to production open-source projects:
 
-  | Project | Description |
+  | Project | What I fixed / added |
   |---|---|
-  | [OWASP/cve-lite-cli](https://github.com/OWASP/cve-lite-cli) | JS/TS dependency vulnerability scanner with OSV matching and CI-friendly output |
-  | [repowise-dev/repowise](https://github.com/repowise-dev/repowise) | Codebase intelligence and auto-documentation for AI-assisted engineering teams |
-  | [404-PF/commit-echo](https://github.com/404-PF/commit-echo) | LLM-powered CLI that learns your commit style and suggests personalized messages |
+  | [pallets/click](https://github.com/pallets/click) | Added missing `skipif` markers to surrogate-filename tests that failed on non-UTF-8 filesystems |
+  | [scrapy/scrapy](https://github.com/scrapy/scrapy) | Fixed `pathlib.Path` feed URIs being URL-encoded, breaking `%`-format specifiers in filenames |
+  | [aio-libs/aiohttp](https://github.com/aio-libs/aiohttp) | Fixed `BodyPartReader.read()` returning `bytearray` instead of `bytes`, breaking JSON serialization |
+  | [marshmallow-code/marshmallow](https://github.com/marshmallow-code/marshmallow) | Fixed `get_value` raising `TypeError` on out-of-range integer indexes instead of returning the default |
+  | [open-telemetry/opentelemetry-js](https://github.com/open-telemetry/opentelemetry-js) | Fixed `timeInputToHrTime` misclassifying epoch-ms timestamps as relative readings due to clock skew |
+  | [open-webui/open-webui](https://github.com/open-webui/open-webui) | Fixed silent failure when LLM calls a non-existent tool name — now returns structured error feedback |
+  | [sveltejs/language-tools](https://github.com/sveltejs/language-tools) | Fixed optional properties completing without `?` in the completion label |
+  | [dask/distributed](https://github.com/dask/distributed) | Replaced wall-clock boundary in `get_task_stream` context manager with a monotonic append index |
+  | [mozilla/pilo](https://github.com/mozilla/pilo) | Added inactivity timeout to LLM stream consumption, preventing silent hangs on stalled providers |
+  | [Lightning-AI/litData](https://github.com/Lightning-AI/litData) | Fixed lexicographic chunk ordering in `train_test_split` corrupting datasets with 10+ chunks |
+  | [elevenlabs/packages](https://github.com/elevenlabs/packages) | Fixed `PingEvent.ping_ms` type to allow `null`; added missing `Ping` wrapper to exports barrel |
+  | [excaliburjs/Excalibur](https://github.com/excaliburjs/Excalibur) | Fixed per-particle `z` config being ignored when `ParticleTransform.Global` is set |
+  | [unjs/ofetch](https://github.com/unjs/ofetch) | Fixed `instanceof` guards running after `value.buffer` check in `isJSONSerializable` |
+  | [apache/solr-orbit](https://github.com/apache/solr-orbit) | Added fallback to Cores API when delete-collection runs against standalone (non-cloud) Solr |
+  | [openwisp/openwisp-notifications](https://github.com/openwisp/openwisp-notifications) | Fixed `get_user_email_preference` ignoring the notification type default for org-less shared targets |
+  | [barebaric/rayforge](https://github.com/barebaric/rayforge) | Fixed `ValueError` crash when deleting the currently active machine |
+  | [snw-mint/fluent-new-tab](https://github.com/snw-mint/fluent-new-tab) | Fixed hardcoded English `<title>` not being wired into the extension's i18n system |
+  | [go-via/via](https://github.com/go-via/via) | Added `reason` label (`client`/`shutdown`/`ttl`) to the `via.sse.disconnect` metrics counter |
+  | [NEAR-DevHub/trezu](https://github.com/NEAR-DevHub/trezu) | Fixed bulk payment amounts ~1000× too small when input used comma as thousands separator |
+  | [pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus) | Added `GET /api/history/stats` endpoint for zero-config token and session usage aggregation |
+  | [0b01001001/spectree](https://github.com/0b01001001/spectree) | Fixed `NameError` crash on `TYPE_CHECKING`-only return annotations in `annotations=True` mode |
+  | [OWASP/cve-lite-cli](https://github.com/OWASP/cve-lite-cli) | Added 100% test coverage for `validate.ts`; extracted `pluralize` utility across 8 files |
+  | [repowise-dev/repowise](https://github.com/repowise-dev/repowise) | Fixed structlog output polluting `--format json` stdout |
+  | [404-PF/commit-echo](https://github.com/404-PF/commit-echo) | Fixed git error swallowing, dollar-sign corruption in prompt expansion, bullet-list parsing |
 
 </details>
 
@@ -83,9 +104,9 @@ A RAG-powered support companion for drug awareness, using Llama 3.1. Built to fe
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/MohammadYusif/MohammadYusif/blob/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/MohammadYusif/MohammadYusif/blob/output/github-contribution-grid-snake.svg" />
-    <img alt="github contribution grid snake animation" src="https://github.com/MohammadYusif/MohammadYusif/blob/output/github-contribution-grid-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MohammadYusif/MohammadYusif/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MohammadYusif/MohammadYusif/output/github-contribution-grid-snake.svg" />
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/MohammadYusif/MohammadYusif/output/github-contribution-grid-snake.svg" />
   </picture>
 </div>
 
