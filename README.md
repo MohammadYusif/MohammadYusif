@@ -57,6 +57,45 @@ A RAG-powered support companion for drug awareness, using Llama 3.1. Built to fe
 
   | Project | What I fixed / added |
   |---|---|
+  | [module-federation/vite](https://github.com/module-federation/vite) | Fixed startup crash on acyclic shared-singleton graphs by generalizing the eager-vs-lazy workspace singleton predicate ✅ merged |
+  | [perses/perses](https://github.com/perses/perses) | Fixed provisioning silently writing resources to non-existent projects; ensured projects are always sorted before their children in same-batch provisioning |
+  | [perses/perses](https://github.com/perses/perses) | Fixed `percli dac build -d` crashing on directories containing non-`package main` Go files |
+  | [CodeWithCJ/SparkyFitness](https://github.com/CodeWithCJ/SparkyFitness) | Fixed food search returning 500 when Open Food Facts returns pagination fields as strings instead of numbers |
+  | [OpenCTI-Platform/connectors](https://github.com/OpenCTI-Platform/connectors) | Fixed CVE connector rate-limiter bursting at every backfill chunk boundary by preserving request history across `asyncio.run()` calls |
+  | [OpenCTI-Platform/connectors](https://github.com/OpenCTI-Platform/connectors) | Fixed `taxii-post` connector forwarding author identity objects even when `delete_created_by_ref` is enabled |
+  | [netscaler/ansible-collection-netscaleradc](https://github.com/netscaler/ansible-collection-netscaleradc) | Fixed `cspolicylabel_cspolicy_binding` failing with NITRO error "Required argument missing [labelName]" |
+  | [konflux-ci/mintmaker](https://github.com/konflux-ci/mintmaker) | Fixed renovate-config ConfigMap changes being silently ignored until pod restart by dropping the process-lifetime singleton cache |
+  | [hashview/hashview](https://github.com/hashview/hashview) | Fixed search export crashing on two compounding name errors: wrong variable passed to `export_results` and `strIO` vs `str_io` throughout |
+  | [leanprover/vscode-lean4](https://github.com/leanprover/vscode-lean4) | Fixed infoview display settings (e.g. "reverse tactic state") being ignored for goals rendered inside diagnostic messages |
+  | [lugassawan/rimba](https://github.com/lugassawan/rimba) | Fixed `clean --merged` force-deleting freshly-created worktrees that had no own commits |
+  | [hungson175/vnfin](https://github.com/hungson175/vnfin) | Fixed `GoldApiSource` silently coercing date-only strings into midnight-UTC timestamps for the `updatedAt` freshness field |
+  | [dns3l/dns3l-core](https://github.com/dns3l/dns3l-core) | Fixed `DELETE /api/v1/crt/<cert>` reporting failure on successful deletion due to misplaced nil-check in `DeleteCertificatesAllCA` |
+  | [murongg/markra](https://github.com/murongg/markra) | Fixed numeric chapter prefixes (e.g. `## 1. Overview`) being stripped from heading outlines and breaking outline navigation |
+  | [kensanata/mastodon-archive](https://github.com/kensanata/mastodon-archive) | Fixed `save()` printing "Backing up" but never actually creating the backup file on the very first save |
+  | [excaliburjs/Excalibur](https://github.com/excaliburjs/Excalibur) | Fixed `PointerEventReceiver` event arrays growing unbounded (memory leak) when `PointerSystem` is removed from a scene |
+  | [Borewit/music-metadata](https://github.com/Borewit/music-metadata) | Fixed ID3v2.3 frames being parsed with the v2.4 bit layout, corrupting APIC cover art frame data |
+  | [Borewit/music-metadata](https://github.com/Borewit/music-metadata) | Fixed ADTS files with sampling-frequency escape index reporting negative bitrate and `sampleRate: -1` |
+  | [mfarragher/obsidiantools](https://github.com/mfarragher/obsidiantools) | Fixed `UnicodeDecodeError` during vault gather swallowing the filename of the offending file |
+  | [mfarragher/obsidiantools](https://github.com/mfarragher/obsidiantools) | Fixed URL fragments in markdown links (e.g. `#hot-module-replacement`) being parsed as spurious tags |
+  | [chrisrogers37/storydump](https://github.com/chrisrogers37/storydump) | Fixed Cloudinary cleanup silently stopping after 500 uploads by paginating through all result pages |
+  | [OpenNingia/l5r-character-manager-3](https://github.com/OpenNingia/l5r-character-manager-3) | Fixed `AttributeError` crash on reload when a saved character had pending wildcard skill choices |
+  | [pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus) | Fixed web search sources never appearing in agent mode due to looking up the wrong key in the tool result dict |
+  | [SebastianNagl/benger-platform](https://github.com/SebastianNagl/benger-platform) | Fixed cost estimate over-counting judge calls ~200× due to wrong runs multiplier and metric-keyed skip set |
+  | [bookorbit/bookorbit](https://github.com/bookorbit/bookorbit) | Fixed container startup crash when `POSTGRES_PASSWORD` contains URL-reserved characters like `#` |
+  | [puddletag/puddletag](https://github.com/puddletag/puddletag) | Fixed FLAC cover art being written with `width: 0` / `height: 0` by deriving real pixel dimensions from image bytes at write time |
+  | [superegodev/superego](https://github.com/superegodev/superego) | Fixed Markdown field `onChange` coercing `""` to `null` even for non-nullable fields |
+  | [OneSignal/onesignal-vue3](https://github.com/OneSignal/onesignal-vue3) | Fixed `init()` hanging forever on browsers without Web Push support or when the SDK script fails to load |
+  | [Dave-London/Pare](https://github.com/Dave-London/Pare) | Fixed `parseLabelList` crashing with "Unexpected end of JSON input" when `gh label list` matches zero labels |
+  | [Just-Bamford/Stellar-Royalty-Splitter](https://github.com/Just-Bamford/Stellar-Royalty-Splitter) | Added inline validation for basis point inputs that previously accepted any out-of-range value without error |
+  | [kmich/ha_ws_core](https://github.com/kmich/ha_ws_core) | Fixed blocking synchronous `manifest.json` reads inside the HA event loop and wrong `state_class` for wind direction sensor |
+  | [blakeembrey/change-case](https://github.com/blakeembrey/change-case) | Fixed `changeKeys` destroying `Date` and other non-plain objects by incorrectly treating them as plain objects to recurse into |
+  | [coqui-ai/TTS](https://github.com/coqui-ai/TTS) | Fixed `server.py` crashing on directory-based models (xtts_v2, bark, tortoise) by passing `model_dir` instead of a `None` config path |
+  | [joewalker/loop-the-loop](https://github.com/joewalker/loop-the-loop) | Fixed `$`-special-pattern corruption in `expandPrompt` by using the function-replacement form of `replaceAll` |
+  | [jerryhillRVA/BlinkV2](https://github.com/jerryhillRVA/BlinkV2) | Added missing `workspaceName` validation (required, max 100 chars) on `POST /api/onboarding/sessions` |
+  | [brooksmcmillin/mcp-authflow](https://github.com/brooksmcmillin/mcp-authflow) | Replaced `assert` guards (stripped under `python -O`) with explicit `RuntimeError` in Redis authentication paths |
+  | [PracticalMind/graver](https://github.com/PracticalMind/graver) | Fixed `changes()` outputting a misleading `+0 / -0` diff for identical versions instead of a clear "No changes" message |
+  | [banisterious/obsidian-charted-roots](https://github.com/banisterious/obsidian-charted-roots) | Fixed calendar showing events from wrong years by missing a year equality check in `getEventsForMonth` |
+  | [AlsoTheZv3n/tldraw-fix](https://github.com/AlsoTheZv3n/tldraw-fix) | Fixed three primitive bugs: `args` spread in `Timers`, wrong axis check in `Vec.Slope`, and read-after-write in `Vec.cross` |
   | [pallets/click](https://github.com/pallets/click) | Added missing `skipif` markers to surrogate-filename tests that failed on non-UTF-8 filesystems |
   | [scrapy/scrapy](https://github.com/scrapy/scrapy) | Fixed `pathlib.Path` feed URIs being URL-encoded, breaking `%`-format specifiers in filenames |
   | [aio-libs/aiohttp](https://github.com/aio-libs/aiohttp) | Fixed `BodyPartReader.read()` returning `bytearray` instead of `bytes`, breaking JSON serialization |
